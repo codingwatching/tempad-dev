@@ -65,9 +65,6 @@ importers:
       stringify-object:
         specifier: ^6.0.0
         version: 6.0.0
-      tsx:
-        specifier: ^4.19.4
-        version: 4.20.6
       typescript:
         specifier: ^5.8.3
         version: 5.9.3
@@ -3774,6 +3771,7 @@ snapshots:
   get-tsconfig@4.13.0:
     dependencies:
       resolve-pkg-maps: 1.0.0
+    optional: true
 
   giget@2.0.0:
     dependencies:
@@ -4412,7 +4410,8 @@ snapshots:
 
   resolve-from@4.0.0: {}
 
-  resolve-pkg-maps@1.0.0: {}
+  resolve-pkg-maps@1.0.0:
+    optional: true
 
   restore-cursor@5.1.0:
     dependencies:
@@ -4659,6 +4658,7 @@ snapshots:
       get-tsconfig: 4.13.0
     optionalDependencies:
       fsevents: 2.3.3
+    optional: true
 
   type-check@0.4.0:
     dependencies:
